@@ -1,10 +1,21 @@
 # Patika - Array App
 
-This C# program takes 10 numbers from the user, stores them in an array, adds a new element (99) to the array, sorts the array in descending order, and prints the result.
+This C# program takes 10 numbers from the user, stores them in an array, adds a new element to the array, sorts the array in descending order, and prints the result.
 
 ## Project Purpose
 
-This project aims to demonstrate the two different methods of abstraction (interface and abstract class) and explain their use cases.
+This project is to take 10 numbers from the user, create an array with those numbers, then add one more number to the array, and finally sort the array in descending order. Here's a step-by-step explanation:
+- **Input 10 Numbers**: The program prompts the user to enter 10 numbers, which are stored in an array (`numbers`). If the user enters an invalid input, it asks again until a valid number is provided.
+- **Display Array Elements**: The elements of the array are printed to the console.
+- **Resize Array**: The array size is increased by one to accommodate an additional element.
+- **Add One More Number**: The program prompts the user to enter one more number, which is added to the end of the array.
+- **Sort and Reverse the Array**: The array is sorted in ascending order and then reversed to display the elements in descending order.
+- **Display Sorted and Reversed Array**: Finally, the sorted and reversed array elements are printed to the console.
+
+---
+
+This program is a good example for learning basic C# operations such as user interaction, array manipulation, and sorting.
+
 
 ---
 
@@ -12,7 +23,7 @@ This project aims to demonstrate the two different methods of abstraction (inter
 
 - Takes 10 numbers from the user.
 - Stores the numbers in an array.
-- Adds a new element (99) to the array.
+- Adds a new element to the array.
 - Sorts the array in descending order.
 - Prints the sorted array.
 
@@ -22,7 +33,7 @@ This project aims to demonstrate the two different methods of abstraction (inter
 
 1. When the program is run, it asks the user to input 10 numbers.
 2. After the numbers are entered, the elements of the array are printed.
-3. A new element (99) is added to the array.
+3. A new element is added to the array.
 4. The array is sorted in descending order, and the sorted array is printed.
 ---
 
